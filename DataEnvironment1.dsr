@@ -1,0 +1,142 @@
+VERSION 5.00
+Begin {C0E45035-5775-11D0-B388-00A0C9055D8E} DataEnvironment1 
+   ClientHeight    =   5970
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   13680
+   _ExtentX        =   24130
+   _ExtentY        =   10530
+   FolderFlags     =   1
+   TypeLibGuid     =   "{4CB64E9C-609E-4AAE-9C0B-55E2903E9795}"
+   TypeInfoGuid    =   "{F82999F8-3295-4F66-BED9-D8EDA5BB481F}"
+   TypeInfoCookie  =   0
+   Version         =   4
+   NumConnections  =   1
+   BeginProperty Connection1 
+      ConnectionName  =   "Connection1"
+      ConnDispId      =   1001
+      SourceOfData    =   3
+      ConnectionSource=   $"DataEnvironment1.dsx":0000
+      Expanded        =   -1  'True
+      QuoteChar       =   34
+      SeparatorChar   =   46
+   EndProperty
+   NumRecordsets   =   1
+   BeginProperty Recordset1 
+      CommandName     =   "Command1"
+      CommDispId      =   1002
+      RsDispId        =   1006
+      CommandText     =   "dbo.sales"
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   2
+      dbObjectType    =   1
+      Expanded        =   -1  'True
+      IsRSReturning   =   -1  'True
+      NumFields       =   12
+      BeginProperty Field1 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "day"
+         Caption         =   "day"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "date"
+         Caption         =   "date"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "year"
+         Caption         =   "year"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "cname"
+         Caption         =   "cname"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "hname"
+         Caption         =   "hname"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   10
+         Scale           =   0
+         Type            =   200
+         Name            =   "city"
+         Caption         =   "city"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "pin"
+         Caption         =   "pin"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "mob"
+         Caption         =   "mob"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   10
+         Scale           =   0
+         Type            =   200
+         Name            =   "model"
+         Caption         =   "model"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "cc"
+         Caption         =   "cc"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "amount"
+         Caption         =   "amount"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   10
+         Scale           =   0
+         Type            =   200
+         Name            =   "payment"
+         Caption         =   "payment"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   0
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+End
+Attribute VB_Name = "DataEnvironment1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
